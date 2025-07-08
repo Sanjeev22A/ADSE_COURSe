@@ -1,0 +1,12 @@
+.env
+__pycache__
+*.ko
+*.mod
+*.mod.o
+*.mod.c
+*.o
+*.cmd
+modules.order
+Module.symvers
+
+
