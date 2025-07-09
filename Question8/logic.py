@@ -3,7 +3,7 @@ import psycopg2
 from utils import createConnectionObject,readTable,checkTableExist,createTable,insertToTable
 
 database_structure: Dict[str, Dict[str, Any]] = {
-    "new_employees": {
+    "new_employees1": {
         "attributes": [("id", "INT"), ("name", "TEXT"), ("salary", "INT")],
         "rows": [
             [1, "Alice", 50000],
